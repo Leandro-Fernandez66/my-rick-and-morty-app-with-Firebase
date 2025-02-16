@@ -1,0 +1,7 @@
+@import '../../pages/home/styles.module.scss';
+
+.footer {
+  height: 100%;
+  grid-area: footer;
+  background-color: $home-background-color;
+}

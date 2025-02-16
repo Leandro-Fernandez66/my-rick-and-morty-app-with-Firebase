@@ -1,0 +1,31 @@
+@import '../../pages/home/styles.module.scss';
+
+.header {
+  height: 10vh;
+  grid-area: header;
+  @include section-style($home-background-color);
+  .containerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $home-background-color;
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      gap: 16px;
+
+      li {
+        font-size: 20px;
+        font-weight: 700;
+        color: #dd1034;
+
+        a:hover {
+          color: #01adc6;
+        }
+      }
+    }
+  }
+}
